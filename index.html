@@ -12,20 +12,20 @@
 </head>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // URL of the raw resume file in your GitHub repository
-    const resumeUrl = 'https://github.com/zuhaibkanju/zuhaibkanju.github.io/blob/main/assets/pdf/Mu.pdf';
+        document.addEventListener('DOMContentLoaded', function () {
+            // URL of the raw resume file in your GitHub repository
+            const resumeUrl = 'https://raw.githubusercontent.com/zuhaibkanju/zuhaibkanju.github.io/main/assets/pdf/Mu.pdf';
 
-    // Select the download link
-    const downloadLink = document.getElementById('downloadResume');
+            // Select the download link
+            const downloadLink = document.getElementById('downloadResume');
 
-    // Set the href attribute to the raw file URL
-    downloadLink.href = resumeUrl;
+            // Set the href attribute to the raw file URL
+            downloadLink.href = resumeUrl;
 
-    // Set the download attribute to prompt download
-    downloadLink.download = 'resume.pdf'; // You can change the filename if needed
-  });
-</script>
+            // Set the download attribute to prompt download
+            downloadLink.download = 'resume.pdf'; // You can change the filename if needed
+        });
+    </script>
 
 
 <body x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
